@@ -1,12 +1,9 @@
-# Case Study: Virtual Assistant using Python (main.py)
-
 from Assistant import Assistant
 
 def main():
-
-    # CLUE: create object from Assistant Class here
-    pass
-
+    
+    viraspy = Assistant(name='Viraspy')
+    viraspy.run()
 
 if __name__ == "__main__":
     main()
