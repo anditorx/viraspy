@@ -75,9 +75,9 @@ class Assistant():
         while True:
             
             print(random.choice(jokes))
-            is_again = input("Again [Yes/No]? ")
+            is_again = input("Again [Y/N]? ")
 
-            if is_again.lower() == "no" or is_again.lower() == "tidak" or is_again.lower() == "0": break
+            if is_again.lower() == "n" or is_again.lower() == "tidak" or is_again.lower() == "0": break
 
     def send_email(self):
         
